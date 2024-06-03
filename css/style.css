@@ -3,12 +3,22 @@ body {
     color: white;
     font-family: "Montserrat";
 }
+h1 {
+    font-family: "Libre Franklin";
+    font-size: 50px;
+    margin-top: 10px;
+}
+p {
+    font-family: "Montserrat";
+    margin-top: 10px;
+}
 /* Header */
 header{
     position: fixed;
     width: 100%;
     background-color: #191923;
     border-bottom: 1px solid #2b2a38 ;
+    z-index: 1000;
 }
 .links {
     display: flex;
@@ -78,9 +88,43 @@ button {
     font-size: 18px;
     font-weight: bold;
 }
-h1 {
-    font-family: "Libre Franklin";
+/*Hero*/
+.hero  {
+    padding: 200px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../img/ftofondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-p {
-    font-family: "Montserrat";
+.invertido {
+    display: flex;
+    flex-direction: column-reverse;
+    padding:  0px 60px 0px 60px;
+}
+.lineavert {
+    border-left: 2px solid #fff;
+    height: 35px;
+    margin-bottom: 15px;
+    margin-left: 12px;
+}
+.rotar {
+    transform: rotate(270deg);
+    transform-origin: left bottom;
+    margin-left: 22px; 
+}
+.hero div a img {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+.texto {
+    margin: 90px 50px 50px 0px;;
+}
+.imagen{
+    margin: 50px 100px 50px 0px;
+}
+.color {
+    color: #f52a57;
 }
