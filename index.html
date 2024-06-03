@@ -6,16 +6,30 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <section class="links">
-        <a href=""> <img src="img/mail.svg" alt="mail"> mirot88763@geekjun.com </a>
-        <a href=""> <img src="img/telefono.svg" alt="telefono"> 6953-3698-9523 </a>
-        <a href=""> <img src="img/facebook.svg" alt="facebook"> <img src="img/instagram.svg" alt="instagram"> <img src="img/twitter.svg" alt="twitter"> <img src="img/linkedin.svg" alt="linkedin"> <img src="img/editar.svg" alt="editar"></a>
+        <div class="mail">
+            <a href=""> <img src="img/mail.svg" alt="mail"> mirot88763@geekjun.com </a>
+            <a href=""> <img src="img/telefono.svg" alt="telefono"> 6953-3698-9523 </a>
+        </div>
+        <div class="logoslinks">
+            <a href=""> <img src="img/facebook.svg" alt="facebook"> </a> 
+            <a href=""> <img src="img/instagram.svg" alt="instagram"> </a> 
+            <a href=""> <img src="img/twitter.svg" alt="twitter"> </a> 
+            <a href=""> <img src="img/linkedin.svg" alt="linkedin"> </a> 
+            <a href=""> <img src="img/editar.svg" alt="editar"> </a>
+        </div>
         </section>
-        <section class="Menu">
-        <div>
+        <section class="menu">
+        <div class="logo">
             <img src="img/icono.png" alt="icono">
             <h2>Logoipsum</h2>
         </div>
@@ -26,13 +40,18 @@
             <a href="#trabajo">Trabajo</a>
             <a href="#footer">Contacto</a>
         </nav>
-        <button>Resume</button></section>
+        <button>Resume</button>
+        </section>
     </header>
     <main>
         <section id="inicio" class="hero">
-            <div class="">
-                <a href=""> <img src="img/facebook.svg" alt="facebook"> <img src="img/instagram.svg" alt="instagram"> <img src="img/twitter.svg" alt="twitter"> <img src="img/linkedin.svg" alt="linkedin"> <img src="img/editar.svg" alt="editar"></a>
-                <hr>
+            <div class="inicio">
+            <div class="invertido">
+                <a href=""> <img src="img/facebook.svg" alt="facebook"> </a> 
+                <a href=""> <img src="img/instagram.svg" alt="instagram"> </a> 
+                <a href=""> <img src="img/twitter.svg" alt="twitter"> </a> 
+                <a href=""> <img src="img/linkedin.svg" alt="linkedin"> </a> 
+                <a href=""> <img src="img/editar.svg" alt="editar"> </a>
                 <p>Sigueme</p>
             </div>
             <div class="">
@@ -45,9 +64,10 @@
             <div class="">
             <img src="img/programador.png" alt="">
             </div>
+            </div>
         </section>
         <section id="sobre" class="sobre">
-            <div class="">03</div>
+            <div class="">01</div>
             <div class="">
                 <div class="">
                     <img src="img/programador 2.png" alt="">
@@ -267,15 +287,15 @@
         </section>
     </main>
     <footer id="footer">
-        <div>
+        <div class="contacto">
             <div class="">04</div>
             <div>
                 <form action="">
-                    <p>Nombre</p>
+                    <label>Nombre</label>
                     <input type="text" placeholder="Ingrese su Nombre">
-                    <p>Mail</p>
+                    <label>Mail</label>
                     <input type="text" placeholder="Ingrese su Mail">
-                    <p>Mensaje</p>
+                    <label>Mensaje</label>
                     <input type="text" placeholder="Ingrese su Mensaje">
                 </form>
             </div>
