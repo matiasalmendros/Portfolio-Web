@@ -2,16 +2,36 @@ body {
     background-color: #191923;
     color: white;
     font-family: "Montserrat";
+    line-height: 30px;
 }
 h1 {
     font-family: "Libre Franklin";
-    font-size: 50px;
+    font-size: 60px;
     margin-top: 10px;
+}
+h3 {
+    font-family: "Montserrat";
+    font-size: 25px;
 }
 p {
     font-family: "Montserrat";
     margin-top: 10px;
 }
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: '>';
+    padding: 0;
+    margin: 0;
+    padding-left: 4px;
+}
+li {
+    width: 50%; 
+    padding-left: 4px; 
+    position: relative;
+    box-sizing: border-box;
+}
+
 /* Header */
 header{
     position: fixed;
@@ -70,7 +90,6 @@ nav {
 nav a {
     color: #fff;
     text-decoration: none;
-    cursor: pointer;
     transition: border 0.3s;
     padding: 10px 15px; 
     border: 2px solid transparent;  
@@ -119,12 +138,69 @@ button {
     height: 25px;
     margin-right: 8px;
 }
-.texto {
-    margin: 90px 50px 50px 0px;;
+.textohero {
+    margin: 90px 50px 50px 0px;
 }
 .imagen{
     margin: 50px 100px 50px 0px;
 }
 .color {
     color: #f52a57;
+}
+/* sobre */
+.sobre {
+    margin: 10%;
+}
+.cuadro {
+    display: flex;
+    border-radius: 80px;
+    background-color: #0b0a0f;
+    padding: 10%;
+}
+.cuadro img {
+    margin-left: -40%;
+}
+.textosobre {
+    margin-left: -10%;
+}
+.numero1 img{
+    width: 220px;
+    height: 170px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -80px;
+}
+.compu img{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    margin-left: 1290px;
+    margin-top: -250px;
+}
+/* trabajo */
+.trabajo {
+    margin: 10%;
+}
+.trabajotextoimagen{
+    display: flex;
+    justify-content: space-between;
+}
+.textotrabajo{
+    width: 50%;
+}
+.trabajotextoimagen img{
+    width: 220px;
+    height: 170px;
+}
+.imagentrabajo{
+    display: flex;
+    justify-content: space-between;
+}
+.imagentrabajo img{
+    width: 350px;
+    height: 350px;
+}
+.imagentrabajo p{
+    display: flex;
+    justify-content: center;
 }
