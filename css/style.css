@@ -7,15 +7,20 @@ body {
 h1 {
     font-family: "Libre Franklin";
     font-size: 60px;
-    margin-top: 10px;
+}
+h2 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
 }
 h3 {
     font-family: "Montserrat";
     font-size: 25px;
+    line-height: 38px;
 }
 p {
     font-family: "Montserrat";
-    margin-top: 10px;
 }
 ul {
     display: flex;
@@ -31,6 +36,14 @@ li {
     position: relative;
     box-sizing: border-box;
 }
+.color {
+    color: #f52a57;
+}
+.sombreado {
+    text-shadow: 
+        0px 3px 0px rgba(	0, 0, 0, 1),
+        0px 3.5px 0px rgba(	255, 255, 255, 1);
+}
 
 /* Header */
 header{
@@ -38,7 +51,11 @@ header{
     width: 100%;
     background-color: #191923;
     border-bottom: 1px solid #2b2a38 ;
-    z-index: 1000;
+    z-index: 10;
+    height: 16.5%;
+}
+.logo h2 {
+    line-height: none;
 }
 .links {
     display: flex;
@@ -71,15 +88,15 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
 }
 .logo {
     display: flex;
     align-items: center;
 }
 .logo img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     margin-right: 5px;
 }
 nav {
@@ -91,16 +108,16 @@ nav a {
     color: #fff;
     text-decoration: none;
     transition: border 0.3s;
-    padding: 10px 15px; 
+    padding: 0px 15px; 
     border: 2px solid transparent;  
 }
 nav a:hover {
-    background-color: #f52c56;  
+    background-color: #f52a57;  
 }
 button {
     position: relative;
     padding: 15px 20px;
-    background-color: #f52c56;
+    background-color: #f52a57;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -131,7 +148,7 @@ button {
 .rotar {
     transform: rotate(270deg);
     transform-origin: left bottom;
-    margin-left: 22px; 
+    margin-left: 27px; 
 }
 .hero div a img {
     width: 25px;
@@ -141,12 +158,13 @@ button {
 .textohero {
     margin: 90px 50px 50px 0px;
 }
+.textosobre h2 {
+    margin-bottom: -2px;
+}
 .imagen{
     margin: 50px 100px 50px 0px;
 }
-.color {
-    color: #f52a57;
-}
+
 /* sobre */
 .sobre {
     margin: 10%;
@@ -203,4 +221,158 @@ button {
 .imagentrabajo p{
     display: flex;
     justify-content: center;
+}
+
+/* experiencia */
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    margin: 0 5% 1% 10%;
+}
+.numero3 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.5%;
+}
+.numero3 img {
+    width: 20%;
+    height: auto;
+    position: relative;
+    z-index: -10;
+    margin-bottom: -6.5%;
+}
+.experienciatextoimagen {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+}
+.experienciatextoimagen2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 2%;
+}
+.experienciatextoimagen img {
+    width: 50%;
+    height: 20%;
+    padding: 0 3% 3% 0;
+}
+.experienciatextoimagen2 img {
+    width: 50%;
+    height: 20%;
+    padding: 0 3% 3% 0;
+}
+.textoexperiencia {
+    width: 50%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.textoexperiencia2 {
+    width: 40%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.textoexperiencia p {
+    margin: 0%;
+    padding-bottom: 1%;
+}
+.alinear {
+    display: flex;
+    margin: 0%;
+    gap: 3%;
+}
+.alinear h2 {
+    padding: 0%;
+    margin: 0%;
+}
+.alinear p {
+    padding: 0% 0% 2% 0%;
+    margin: 0%;
+}
+.espacio {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    padding: 2% 0% 0% 0%;
+}
+.espacio2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2% 0% 0% 0%;
+}
+.arreglar {
+    display: flex;
+    align-items: baseline;
+    height: 10%;
+}
+.separar {
+    padding-left: 2%; 
+}
+.achicar {
+    width: 70%;
+}
+.lenguajes {
+    width: 15%;
+}
+.espaciobarra {
+    width: 70%;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+}
+.espaciobarra2 {
+    width: 90%;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+}
+.barra {
+    width: 100%;
+    background-color: #0a090e;
+    border: 0.2px solid #3c1b2c;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    height: 6%;
+    margin: 2% 0 2.5% 0;
+}
+.progreso {
+    height: 100%;
+    background-color: #f52a57;
+    border-radius: 10px;
+}
+.porcentaje {
+    width: 15%;
+}
+.experiencialink {
+    display: flex;
+    height: auto;
+    gap: 2%;
+    padding-top: 2%;
+}
+.experiencialink a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #f52a57;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+}
+.experiencialink a img {
+    width: 10%;
+    height: auto;
+    padding: 0;
+    margin-right: 2%;
+    border: 0;
+}
+.cuadro2 {
+    border: 2px solid #fff;
 }
