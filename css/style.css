@@ -28,11 +28,11 @@ ul {
     list-style: '>';
     padding: 0;
     margin: 0;
-    padding-left: 4px;
+    padding-left: 1%;
 }
 li {
     width: 50%; 
-    padding-left: 4px; 
+    padding-left: 1%; 
     position: relative;
     box-sizing: border-box;
 }
@@ -54,76 +54,97 @@ header{
     z-index: 10;
     height: 16.5%;
 }
-.logo h2 {
-    line-height: none;
-}
 .links {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    align-self: center;
-    padding: 10px 210px;
+    padding: 0.7% 10%;
     background-color: #2b2a38;
+    height: 20%;
+}
+.mail {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    gap: 5%;
 }
 .mail a {
+    display: flex;
+    align-items: center;
     color: #b1b2b4;
     text-decoration: none;
-    margin-left: 15px;
+    white-space: nowrap;
+    font-size: 13px;
 }
 .mail a img {
-    width: 15px;
-    height: 15px;
-    margin-right: 8px;
+    width: 10%;
+    height: auto;
+    margin-right: 5%;
+}
+.logoslinks {
+    display: flex;
+    justify-content: flex-end;
+    width: 15%;
 }
 .logoslinks a {
-    margin-right: 8px;
+    margin-right: 6%;
     text-decoration: none;
 }
 .logoslinks a img{
-    width: 20px;
-    height: 20px;
+    width: 80%;
+    height: 80%;
     margin: 0px;
 }
 .menu {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 10px;
+    height: 60%;
+    width: 80%;
+    margin: auto;
+    gap: 14%;
 }
 .logo {
     display: flex;
     align-items: center;
+    width: 13%;
+}
+.logo h2 {
+    line-height: none;
+    font-size: 20px;
+    font-weight: bold;
 }
 .logo img {
-    width: 35px;
-    height: 35px;
-    margin-right: 5px;
+    width: 20%;
+    height: auto;
+    margin-right: 5%;
 }
 nav {
-    position: relative;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 50%;
 }
 nav a {
     color: #fff;
     text-decoration: none;
     transition: border 0.3s;
-    padding: 0px 15px; 
-    border: 2px solid transparent;  
+    padding: 1% 3%;
+    border: 2px solid transparent;
 }
 nav a:hover {
-    background-color: #f52a57;  
+    background-color: #f52a57;
 }
 button {
-    position: relative;
-    padding: 15px 20px;
+    padding: 1.2% 1.4%;
     background-color: #f52a57;
     color: #fff;
     border: none;
     cursor: pointer;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 600;
+    margin-left: auto;
 }
+
 /*Hero*/
 .hero  {
     padding: 200px 20px 20px 20px;
