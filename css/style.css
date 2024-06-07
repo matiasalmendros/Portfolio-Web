@@ -273,8 +273,8 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 10;
-    margin: 0 5% 12% 10%;
+    z-index: 1;
+    margin: 0 5% 10% 10%;
 }
 .numero3 {
     position: relative;
@@ -286,7 +286,7 @@ nav a:hover {
     width: 20%;
     height: auto;
     position: relative;
-    z-index: -10;
+    z-index: -1;
     margin-bottom: -6.5%;
 }
 .experienciatextoimagen {
@@ -424,7 +424,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 10;
+    z-index: 1;
     margin: 0 10% 5% 10%;
 }
 .numero4 {
@@ -437,7 +437,7 @@ nav a:hover {
     width: 20%;
     height: auto;
     position: relative;
-    z-index: -10;
+    z-index: -1;
     margin-bottom: -6.5%;
 }
 .ultimos h3{
@@ -472,12 +472,62 @@ nav a:hover {
 .espacioultimos {
     margin-bottom: 3%;
 }
-
-/* footer */
-
-
-
-.cuadro2 {
-    border: 2px solid #fff;
+.ultimos button {
+    margin-top: 3%;
 }
-
+/* footer */
+footer {
+    margin: 14% 10% 7% 17%;
+}
+.numero5 img {
+    width: 15%;
+    height: auto;
+    position: absolute;
+    margin-left: -9%;
+    margin-top: -10%;
+    z-index: 1;
+}
+.cuadrofooter {
+    display: flex;
+    border-radius: 80px;
+    background-color: #0b0a0f;
+    padding: 8% 8% 6% 8%;
+}
+.cuadroformfooter {
+    display: flex;
+    flex-direction: column; 
+    border-bottom-right-radius: 180px;
+    background-color: #191923;
+    padding: 5% 9% 4% 9%;
+    width: 50%;
+    margin: -4% 0 0 -25%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    z-index: 2;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+}
+.cuadroformfooter input {
+    background-color: #0b0a0f;
+    border: none;
+    margin: 1% 0 3% 0;
+    padding: 4%;
+    border-radius: 4px;
+}
+.cuadroformfooter button {
+    width: 20%;
+    margin-top: 3%;
+    padding: 3% 0;
+    align-self: center;
+}
+.textofooter {
+    width: 50%;
+    padding-left: 6%;
+    align-self: center;
+}
+.textofooter h1 {
+    padding-bottom: 2%;
+}
