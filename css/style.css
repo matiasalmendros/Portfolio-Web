@@ -44,6 +44,16 @@ li {
         0px 3px 0px rgba(	0, 0, 0, 1),
         0px 3.5px 0px rgba(	255, 255, 255, 1);
 }
+button {
+    padding: 1.2% 1.4%;
+    background-color: #f52a57;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: auto;
+}
 
 /* Header */
 header{
@@ -134,20 +144,11 @@ nav a {
 nav a:hover {
     background-color: #f52a57;
 }
-button {
-    padding: 1.2% 1.4%;
-    background-color: #f52a57;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 600;
-    margin-left: auto;
-}
+
 
 /*Hero*/
 .hero  {
-    padding: 200px 20px 20px 20px;
+    padding: 10% 2% 2% 0;
     display: flex;
     justify-content: space-between;
     background-image: url(../img/ftofondo.jpg);
@@ -158,37 +159,51 @@ button {
 .invertido {
     display: flex;
     flex-direction: column-reverse;
-    padding:  0px 60px 0px 60px;
+    gap: 3%;
+    align-items: center;
+    padding: 0 4%;
+}
+.columna {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 26.5%;
+    width: 35%;
+}
+.columna img {
+    width: 100%;
+    height: 100%;
 }
 .lineavert {
     border-left: 2px solid #fff;
-    height: 35px;
-    margin-bottom: 15px;
-    margin-left: 12px;
+    height: 7%;
 }
 .rotar {
     transform: rotate(270deg);
-    transform-origin: left bottom;
-    margin-left: 27px; 
-}
-.hero div a img {
-    width: 25px;
-    height: 25px;
-    margin-right: 8px;
 }
 .textohero {
-    margin: 90px 50px 50px 0px;
+  margin-top: 5%;
 }
-.textosobre h2 {
-    margin-bottom: -2px;
+.textohero h1 {
+    padding-bottom: 2%;
 }
-.imagen{
-    margin: 50px 100px 50px 0px;
+.tamaño {
+    width: 83%;
+    margin-top: -2%;
+}
+.imagenhero{
+    margin: 3% 7% 3% 0;
 }
 
 /* sobre */
 .sobre {
     margin: 10%;
+}
+.numero1 img {
+    width: 15%;
+    height: auto;
+    position: absolute;
+    margin-left: -4%;
+    margin-top: -5%;
 }
 .cuadro {
     display: flex;
@@ -197,51 +212,61 @@ button {
     padding: 10%;
 }
 .cuadro img {
-    margin-left: -40%;
+    margin: 10% 0 0 -40%
 }
 .textosobre {
     margin-left: -10%;
 }
-.numero1 img{
-    width: 220px;
-    height: 170px;
-    position: absolute;
-    margin-left: -50px;
-    margin-top: -80px;
+.textosobre h2 {
+    margin-bottom: -0.5%;
 }
-.compu img{
-    width: 200px;
-    height: 250px;
+.compu img {
+    width: 10%;
+    height: 25%;
     position: absolute;
-    margin-left: 1290px;
-    margin-top: -250px;
+    padding-left: 68%;
+    margin-top: -12.2%;
 }
+
 /* trabajo */
 .trabajo {
     margin: 10%;
 }
-.trabajotextoimagen{
+.trabajotextoimagen {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
-.textotrabajo{
+.textotrabajo {
     width: 50%;
 }
-.trabajotextoimagen img{
-    width: 220px;
-    height: 170px;
-}
-.imagentrabajo{
+.numero2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
-.imagentrabajo img{
-    width: 350px;
-    height: 350px;
+.numero2 img {
+    width: 45%;
+    height: 60%;
 }
-.imagentrabajo p{
+.imagentrabajo {
+    display: flex;
+    gap: 2%;
+    width: 100%;
+}
+.imagentrabajo div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.imagentrabajo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imagentrabajo p {
     display: flex;
     justify-content: center;
+    margin:  4% 0%;
 }
 
 /* experiencia */
@@ -394,6 +419,4 @@ button {
     margin-right: 2%;
     border: 0;
 }
-.cuadro2 {
-    border: 2px solid #fff;
-}
+
