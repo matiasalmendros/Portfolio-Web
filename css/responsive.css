@@ -1,0 +1,812 @@
+/* Ya hecho */
+@media (max-width: 1920px) {
+}
+@media (max-width: 1440px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    h3 {
+        font-size: 12px;
+        line-height: 28px;
+    }
+    p {
+        font-size: 13px;
+    }
+    li {
+        width: 35%;
+        font-size: 13px;
+    }
+    /* Hero */
+    .textohero {
+        padding-top: 4%;
+    }
+    .imagenhero{
+        padding-top: 3%;
+    }
+    .imagenhero img{
+        width: 500px;
+    }
+    /* Sobre */
+    .compu img {
+        width: 10%;
+        height: 22%;
+        padding-left: 66%;
+        margin-top: -16.5%;
+    }
+    /* Trabajo */
+    .numero2 img {
+        width: 40%;
+    }
+    /* Experiencia */
+    .textoexperiencia {
+        height: auto;
+        transform: scale(0.9); 
+        margin-top: -2%;
+    }
+    .textoexperiencia2 {
+        height: auto;
+        transform: scale(0.9); 
+        margin-top: -2%;
+    }
+    .espaciobarra {
+        height: 180px;
+    }
+    .barra {
+        width: 100%;
+        height: 6%;
+        margin: 3% 0 3% 0;
+    }
+    /* Ultimos */
+    .cuadroformfooter {
+        border-bottom-right-radius: 135px;
+    }
+    .espacioultimos h3 {
+        font-size: 23px;
+        line-height: 28px;
+        margin: 1% 0;;
+    }
+    .espacioultimos p {
+        margin: 1% 0;;
+    }
+}
+@media (max-width: 1280px) {
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    h3 {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    p {
+        font-size: 12px;
+    }
+    li {
+        width: 35%;
+        font-size: 11px;
+    }
+    /* Hero */
+    .invertido {
+        gap: 6%;
+    }
+    .lineavert {
+        margin-top: -13px;
+    }
+    .textohero {
+        padding-top: 4%;
+    }
+    .imagenhero{
+        padding-top: 2%;
+    }
+    .imagenhero img{
+        width: 400px;
+    }
+    /* Sobre */
+    .cuadro img {
+        display: none;
+    }
+    .compu img {
+        display: none;
+    }
+    .textosobre {
+        padding-left: 10%;
+    }
+    /* Trabajo */
+    .numero2 img {
+        width: 30%;
+    }
+    /* Experiencia */
+    .textoexperiencia {
+        height: auto;
+        transform: scale(0.8); 
+        margin-top: -3%;
+    }
+    .textoexperiencia2 {
+        height: auto;
+        transform: scale(0.8); 
+        margin-top: -3%;
+    }
+    .espaciobarra {
+        height: 170px;
+    }
+    .barra {
+        width: 100%;
+        height: 6%;
+        margin: 3% 0 3% 0;
+    }
+    /* Ultimos */
+    .espacioultimos h3 {
+        font-size: 23px;
+        line-height: 28px;
+        margin: 1% 0;;
+    }
+    .espacioultimos p {
+        margin: 1% 0;;
+    }
+    /* footer */
+    .cuadroformfooter {
+        border-bottom-right-radius: 130px;
+    }
+    .formulario {
+        font-size: 12px;
+    }
+    .formulario button {
+        font-size: 15px;
+    }
+}
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    h3 {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    li {
+        width: 35%;
+        font-size: 8px;
+    }
+    /* Header */
+    .links a {
+        font-size: 10px;
+    }
+    .menu a {
+    font-size: 10px;
+    }
+    .menu button {
+        font-size: 12px;
+    }
+    /* Hero */
+    .textohero {
+        padding-top: 8%;
+    }
+   .invertido {
+        gap: 7%;
+        height: 500px;
+   }
+   .lineavert {
+        margin-top: -15%;
+        height: 35px;
+   }
+   .rotar {
+        margin-bottom: -10%;
+   }
+    .imagenhero{
+        padding-top: 2%;
+    }
+    .imagenhero img{
+        display: none;
+    }
+    /* Sobre */
+    .cuadro img {
+        display: none;
+    }
+    .compu img {
+        display: none;
+    }
+    .textosobre {
+        padding-left: 10%;
+    }
+    /* Trabajo */
+    .numero2 img {
+        width: 30%;
+    }
+    /* Experiencia */
+    .experiencia {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    .imagenexperiencia {
+        width: 50%; 
+    }
+    .textoexperiencia {
+        width: 100%; 
+        margin: auto;
+        height: auto;
+        transform: scale(0.8); 
+        margin-top: -3%;
+    }
+    .espaciobarra {
+        height: 170px;
+    }
+    .barra {
+        width: 100%;
+        height: 4%;
+        margin: 2% 0 3.5% 0;
+    }
+    .experiencialink {
+        margin-top: -15%;
+    }
+    .imagenexperiencia {
+        display: none; 
+    }
+    /* Ultimos */
+    .espacioultimos h3 {
+        font-size: 23px;
+        line-height: 28px;
+        margin: 1% 0;;
+    }
+    .espacioultimos p {
+        margin: 1% 0;;
+    }  
+    .ultimos button {
+    font-size: 13px;
+    }
+    /* footer */
+    .cuadroformfooter {
+        border-bottom-right-radius: 120px;
+    }
+    .formulario {
+        font-size: 9px;
+    }
+    .formulario button {
+        font-size: 13px;
+    }
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    h3 {
+        font-size: 9px;
+        line-height: 16px;
+    }
+    p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    li {
+        width: 35%;
+        font-size: 10px;
+    }
+    button {
+        font-size: 13px;
+        font-weight: 500;
+        padding: 2%;
+    }
+    /* Header */
+    header {
+        height: 100px;
+    }
+    .links {
+        height: 15%;
+    }
+    .menu {
+        height: 85%;
+    }
+    .links a {
+        font-size: 8px;
+    }
+    .menu a {
+        font-size: 10px;
+    }
+    .menu button {
+        font-size: 12px;
+    }
+    /* Hero */
+    .textohero {
+        padding-top: 4%;
+    }
+    .invertido {
+        gap: 7%;
+        height: 370px;
+        margin-top: -3%;
+    }
+    .columna {
+        width: 100%;
+        height: auto;
+    }
+    .columna a {
+        height: 18px;
+    }
+    .columna img {
+        width: 40%; 
+        height: 8px; 
+        margin-left: 11px;
+    }
+    .lineavert {
+        margin-bottom: -24px;
+        height: 20px;
+    }
+   .rotar {
+        margin-bottom: -10%;
+   }
+    .imagenhero img{
+        display: none;
+    }
+    /* Sobre */
+    .cuadro {
+        width: 460px;
+    }
+    .cuadro img {
+        display: none;
+    }
+    .compu img {
+        display: none;
+    }
+    .textosobre {
+        padding-left: 10%;
+    }
+    /* Trabajo */
+    .numero2 img {
+        width: 30%;
+        height: 35%;
+        margin-right: 20%;
+    }
+    .imagentrabajo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imagentrabajo div {
+        flex-basis: 30%; 
+        margin: 1%; 
+        display: flex;
+        justify-content: center;
+    }
+    .imagentrabajo img {
+        width: 220px;
+        height: auto;        
+
+    }
+    .textotrabajo {
+        width: 94%;
+    }
+    /* Experiencia */
+    .textoexperiencia {
+        height: 250px;
+        width: 100%; 
+        margin-top: -4%; 
+    }
+    .textoexperiencia2 {
+        height: 250px;
+        width: 100%; 
+        margin-top: -4%; 
+    }
+    .espaciobarra {
+        height: auto; 
+        width: 300px;
+    }
+    .espaciobarra2 {
+        height: auto; 
+    }
+    .barra {
+        width: 100%;
+        height: 8px; 
+        margin: 5.5px 0; 
+    }
+    .experiencialink {
+        margin-top: -8px; 
+    }
+    .experiencialink a {
+        font-size: 10px;
+    }
+    /* Ultimos */
+    .espacioultimos {
+        margin-bottom: 16%;
+    }
+    .espacioultimos h3 {
+        font-size: 23px;
+        line-height: 28px;
+        margin: 1% 0;;
+    }
+    .espacioultimos p {
+        margin: 1% 0;;
+    }  
+    .ultimos button {
+        font-size: 13px;
+    }
+    /* footer */
+    .cuadroformfooter {
+        border-bottom-right-radius: 90px;
+    }
+    .formulario {
+        font-size: 9px;
+    }
+    .formulario button {
+        font-size: 13px;
+    }
+}
+@media (max-width: 480px) {
+    h1 {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 8px;
+    }
+    h3 {
+        font-size: 6px;
+        line-height: 8px;
+    }
+    p {
+        font-size: 5px;
+        line-height: 8px;
+    }
+    li {
+        width: 35%;
+        font-size: 5px;
+    }
+    button {
+        font-size: 10px;
+        font-weight: 500;
+        padding: 2%;
+    }
+    .sombreado {
+        text-shadow: 
+            0px 0.5px 0px rgba(	0, 0, 0, 1),
+            0px 1px 0px rgba(	255, 255, 255, 1);
+    }
+    /* Header */
+    header {
+        width: 480px;
+        height: 70px;
+    }
+    .menu nav, button, .logo{
+        display: none;
+    }
+    .desaparecer {
+        display: flex;
+        padding: 20px 0px;
+    }
+    .links {
+        height: 23%;
+    }
+    .menu {
+        height: 77%;
+    }
+    .links a {
+        font-size: 5px;
+    }
+    .menu a {
+        font-size: 8px;
+    }
+    .menu nav a {
+        font-size: 6px;
+    }
+    .menu button {
+        font-size: 8px;
+    }
+    .logo img {
+        width: 15px;
+    }
+    .logo h2 {
+        font-size: 11px;
+    }
+    /* Hero */
+    .textohero h1{
+        height: 15px;
+    }
+    .invertido {
+        gap: 5%;
+        height: 370px;
+        margin-top: -17%;
+    }
+    .columna {
+        width: 100%;
+        height: auto;
+    }
+    .columna a {
+        height: 18px;
+    }
+    .columna img {
+        width: 40%; 
+        height: 8px; 
+        margin-left: 6px;
+    }
+    .lineavert {
+        margin-bottom: -16px;
+    }
+    .rotar {
+        margin-bottom: -10%;
+    }
+    .imagenhero {
+        padding-top: 10%;
+    }
+    .imagenhero img {
+        width: 170px;
+    }
+    .textohero {
+        margin-top: 10%;
+    }
+    .textohero h1 {
+        padding-bottom: 5%;
+    }
+    .tamaño {
+        width: 100%;
+        margin-top: 0;
+    }
+    .lineavert {
+        height: 5%;
+    }
+    /* Sobre */
+    .numero1 img {
+        margin-left: -3%;
+        margin-top: -3%;
+    }
+    .cuadro {
+        border-radius: 50px;
+    }
+    .cuadro img {
+        width: 160px;
+        padding-top: 10%;
+    }
+    .compu img {
+        width: 60px;
+        height: 70px;
+        padding-left: 60%;
+        margin-top: -14.5%;
+    }
+    .textosobre {
+        line-height: 20px;
+    }
+    /* Trabajo */
+    .numero2 img {
+        width: 45%;
+        height: 55%;
+    }
+    .textotrabajo {
+        width: 800px;
+    }
+    /* Experiencia */
+    .numero3 img {
+        margin-bottom: -10%;
+    } 
+    .experienciatextoimagen {
+        margin: 0%;
+    }
+    .experienciatextoimagen2 {
+        margin: 0%;
+    }
+    .textoexperiencia {
+        height: 170px;
+        width: 100%; 
+        margin-top: -4%; 
+    }
+    .textoexperiencia2 {
+        height: 170px;
+        width: 100%; 
+        margin-top: -4%; 
+    }
+    .textoexperiencia p {
+        margin-bottom: 2%;
+    }
+    .textoexperiencia2 p {
+        margin-bottom: 4%;
+    }
+    .espaciobarra {
+        height: auto; 
+        width: 200px;
+    }
+    .espaciobarra2 {
+        height: auto; 
+    }
+    .barra {
+        width: 100%;
+        height: 4px; 
+        margin: 1.3px 0; 
+    }
+    .experiencialink {
+        margin-top: -8px; 
+    }
+    .experiencialink a {
+        font-size: 8px;
+    }
+    /* Ultimos */
+    .ultimos h3 {
+        font-size: 15px;
+    }
+    .numero4 img {
+        margin-bottom: -10%;
+    }
+    .espacioultimos {
+        margin-bottom: 22%;
+    }
+    .espacioultimos img {
+        width: ;
+    }
+    .espacioultimos h3 {
+        font-size: 23px;
+        line-height: 28px;
+        margin: 1% 0;;
+    }
+    .espacioultimos p {
+        margin: 1% 0;;
+    }  
+    .ultimos button {
+        font-size: 13px;
+    }
+    /* footer */
+    .cuadrofooter {
+        border-radius: 40px;
+    }
+    .cuadroformfooter {
+        border-bottom-right-radius: 50px;
+    }
+    .formulario {
+        font-size: 6px;
+    }
+    .formulario button {
+        font-size: 8px;
+    }
+}
+@media (max-width: 320px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    h3 {
+        font-size: 9px;
+        line-height: 16px;
+    }
+    p {
+        font-size: 8px;
+        line-height: 20px;
+    }
+    li {
+        width: 35%;
+        font-size: 8px;
+    }
+    button {
+        font-size: 13px;
+        font-weight: 500;
+        padding: 2%;
+    }
+    /* Header */
+    header {
+        height: 100px;
+    }
+    .links {
+        height: 15%;
+    }
+    .menu {
+        height: 85%;
+    }
+    .links a {
+        font-size: 8px;
+    }
+    .menu a {
+    font-size: 10px;
+    }
+    .menu button {
+        font-size: 12px;
+    }
+    /* Hero */
+    .textohero {
+        padding-top: 4%;
+    }
+   .invertido {
+        gap: 5%;
+        height: 500px;
+   }
+   .rotar {
+        margin-bottom: -10%;
+   }
+    .imagenhero{
+        padding-top: 8%;
+    }
+    .imagenhero img{
+        width: 320px;
+    }
+    /* Sobre */
+    .cuadro img {
+        width: 300px;
+        padding-top: 10%;
+    }
+    .compu img {
+        width: 10%;
+        height: 22%;
+        padding-left: 64%;
+        margin-top: -29.5%;
+    }
+    /* Trabajo */
+    .numero2 img {
+        width: 30%;
+        height: 35%;
+    }
+    .textotrabajo {
+        width: 94%;
+    }
+    /* Experiencia */
+    .textoexperiencia {
+        height: 250px;
+        width: 100%; 
+        margin-top: -4%; 
+    }
+    .textoexperiencia2 {
+        height: 250px;
+        width: 100%; 
+        margin-top: -4%; 
+    }
+    .espaciobarra {
+        height: auto; 
+        width: 300px;
+    }
+    .espaciobarra2 {
+        height: auto; 
+    }
+    .barra {
+        width: 100%;
+        height: 8px; 
+        margin: 5.5px 0; 
+    }
+    .experiencialink {
+        margin-top: -8px; 
+    }
+    .experiencialink a {
+        font-size: 10px;
+    }
+    /* Ultimos */
+    .espacioultimos {
+        margin-bottom: 16%;
+    }
+    .espacioultimos h3 {
+        font-size: 23px;
+        line-height: 28px;
+        margin: 1% 0;;
+    }
+    .espacioultimos p {
+        margin: 1% 0;;
+    }  
+    .ultimos button {
+        font-size: 13px;
+    }
+    /* footer */
+    .cuadroformfooter {
+        border-bottom-right-radius: 90px;
+    }
+    .formulario {
+        font-size: 9px;
+    }
+    .formulario button {
+        font-size: 13px;
+    }
+}
