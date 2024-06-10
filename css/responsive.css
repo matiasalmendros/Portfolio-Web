@@ -21,6 +21,10 @@
         width: 35%;
         font-size: 13px;
     }
+    /* header */
+    header {
+        height: 120px;
+    }
     /* Hero */
     .textohero {
         padding-top: 4%;
@@ -46,12 +50,7 @@
     .textoexperiencia {
         height: auto;
         transform: scale(0.9); 
-        margin-top: -2%;
-    }
-    .textoexperiencia2 {
-        height: auto;
-        transform: scale(0.9); 
-        margin-top: -2%;
+        margin: -2% 0 0 -2%;
     }
     .espaciobarra {
         height: 180px;
@@ -59,7 +58,7 @@
     .barra {
         width: 100%;
         height: 6%;
-        margin: 3% 0 3% 0;
+        margin: 3.5% 0 3.5% 0;
     }
     /* Ultimos */
     .cuadroformfooter {
@@ -93,6 +92,10 @@
     li {
         width: 35%;
         font-size: 11px;
+    }
+    /* header */
+    header {
+        height: 120px;
     }
     /* Hero */
     .invertido {
@@ -128,12 +131,7 @@
     .textoexperiencia {
         height: auto;
         transform: scale(0.8); 
-        margin-top: -3%;
-    }
-    .textoexperiencia2 {
-        height: auto;
-        transform: scale(0.8); 
-        margin-top: -3%;
+        margin: -2% 0 0 -4%;
     }
     .espaciobarra {
         height: 170px;
@@ -141,7 +139,7 @@
     .barra {
         width: 100%;
         height: 6%;
-        margin: 3% 0 3% 0;
+        margin: 4% 0 4% 0;
     }
     /* Ultimos */
     .espacioultimos h3 {
@@ -151,6 +149,9 @@
     }
     .espacioultimos p {
         margin: 1% 0;;
+    }
+    .ultimos button {
+        margin-top: 7%;
     }
     /* footer */
     .cuadroformfooter {
@@ -168,28 +169,31 @@
         font-size: 28px;
     }
     h2 {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
         line-height: 20px;
     }
     h3 {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 16px;
     }
     p {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 20px;
     }
     li {
         width: 35%;
-        font-size: 8px;
+        font-size: 12px;
     }
     /* Header */
+    header {
+        height: auto;
+    }
     .links a {
         font-size: 10px;
     }
     .menu a {
-    font-size: 10px;
+    font-size: 12px;
     }
     .menu button {
         font-size: 12px;
@@ -198,17 +202,17 @@
     .textohero {
         padding-top: 8%;
     }
-   .invertido {
+    .invertido {
         gap: 7%;
         height: 500px;
-   }
-   .lineavert {
+     }
+    .lineavert {
         margin-top: -15%;
         height: 35px;
-   }
-   .rotar {
+     }
+    .rotar {
         margin-bottom: -10%;
-   }
+    }
     .imagenhero{
         padding-top: 2%;
     }
@@ -228,6 +232,19 @@
     /* Trabajo */
     .numero2 img {
         width: 30%;
+        height: 45%;
+    }
+    .textotrabajo {
+        width: 100%;
+    }
+    .imagentrabajo div {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+    }
+    .imagentrabajo div a img {
+        width: 100%;
+        height: auto;
     }
     /* Experiencia */
     .experiencia {
@@ -245,16 +262,19 @@
         transform: scale(0.8); 
         margin-top: -3%;
     }
+    .textoexperiencia p { 
+        font-size: 13px;
+    }
     .espaciobarra {
         height: 170px;
     }
     .barra {
         width: 100%;
         height: 4%;
-        margin: 2% 0 3.5% 0;
+        margin: 2% 0 1.8% 0;
     }
     .experiencialink {
-        margin-top: -15%;
+        margin-top: -10%;
     }
     .imagenexperiencia {
         display: none; 
@@ -270,6 +290,7 @@
     }  
     .ultimos button {
     font-size: 13px;
+    margin-top: 12%;
     }
     /* footer */
     .cuadroformfooter {
@@ -292,7 +313,7 @@
         line-height: 20px;
     }
     h3 {
-        font-size: 9px;
+        font-size: 10px;
         line-height: 16px;
     }
     p {
@@ -379,21 +400,22 @@
     }
     .imagentrabajo {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+        align-items: flex-start; 
+        gap: 5%;
     }
-    .imagentrabajo div {
-        flex-basis: 30%; 
-        margin: 1%; 
-        display: flex;
-        justify-content: center;
+    .imagentrabajo div { 
+        margin-bottom: 20px; 
+        flex-basis: 40%;
     }
     .imagentrabajo img {
-        width: 220px;
+        width: 100%;
         height: auto;        
-
+        object-fit: contain;
     }
     .textotrabajo {
-        width: 94%;
+        width: 100%;
     }
     /* Experiencia */
     .textoexperiencia {
@@ -452,39 +474,39 @@
 }
 @media (max-width: 480px) {
     h1 {
-        font-size: 13px;
+        font-size: 24px;
     }
     h2 {
-        font-size: 10px;
+        font-size: 14px;
         font-weight: 500;
-        line-height: 8px;
+        line-height: 20px;
     }
     h3 {
-        font-size: 6px;
-        line-height: 8px;
+        font-size: 10px;
+        line-height: 16px;
     }
     p {
-        font-size: 5px;
-        line-height: 8px;
+        font-size: 10px;
+        line-height: 20px;
     }
     li {
         width: 35%;
-        font-size: 5px;
+        font-size: 10px;
     }
     button {
-        font-size: 10px;
+        font-size: 13px;
         font-weight: 500;
         padding: 2%;
     }
     .sombreado {
         text-shadow: 
-            0px 0.5px 0px rgba(	0, 0, 0, 1),
-            0px 1px 0px rgba(	255, 255, 255, 1);
+            0px 1px 0px rgba(	0, 0, 0, 1),
+            0px 2px 0px rgba(	255, 255, 255, 1);
     }
     /* Header */
     header {
         width: 480px;
-        height: 70px;
+        height: 80px;
     }
     .menu nav, button, .logo{
         display: none;
@@ -495,12 +517,19 @@
     }
     .links {
         height: 23%;
+        align-items: center;
+        padding-top: 2%;
     }
     .menu {
         height: 77%;
     }
-    .links a {
-        font-size: 5px;
+    .mail a {
+        font-size: 9px;
+        margin-right: 11%;
+    }
+    header .links .logoslinks img {
+        width: 12px;
+        height: auto;
     }
     .menu a {
         font-size: 8px;
@@ -512,12 +541,15 @@
         font-size: 8px;
     }
     .logo img {
-        width: 15px;
+        width: 30px;
     }
     .logo h2 {
         font-size: 11px;
     }
     /* Hero */
+    .hero {
+        background-size: cover;    
+    }
     .textohero h1{
         height: 15px;
     }
@@ -570,6 +602,7 @@
     }
     .cuadro {
         border-radius: 50px;
+        width: 280px;
     }
     .cuadro img {
         width: 160px;

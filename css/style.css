@@ -147,10 +147,7 @@ nav a:hover {
     padding: 10% 2% 2% 0;
     display: flex;
     justify-content: space-between;
-    background-image: url(../img/fondofto.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url(../img/fondofto.png) no-repeat center center/cover;
 }
 .invertido {
     display: flex;
@@ -322,7 +319,6 @@ nav a:hover {
     height: auto;
     margin: 0%;
     padding: 0%;
-    border: 2px solid #fff
 }
 .textoexperiencia p {
     margin: 0%;
@@ -375,7 +371,7 @@ nav a:hover {
     overflow: hidden;
     position: relative;
     height: 6%;
-    margin: 2% 0 2.5% 0;
+    margin: 4% 0 4% 0;
 }
 .progreso {
     height: 100%;
