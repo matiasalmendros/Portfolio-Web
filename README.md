@@ -1,3 +1,4 @@
+[![Matrix SVG](https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg)]
 # Portfolio Web Personal
 
 Este repositorio contiene el código fuente de mi portafolio web personal, diseñado para mostrar mi trabajo y habilidades. Inspirado en [este diseño](https://www.behance.net/gallery/165732117/Personal-Portfolio-Web-UI?tracking_source=search_projects%7Cportfolio+web&l=62).
